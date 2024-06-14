@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram by Winnie</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="left">
+                    <div class="logo">
+                        <img class="logo-icon" src="./img/Logo_black.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="search">
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="home">
+                        <img class="home-icon" src="./img/home_black.svg" alt="home">
+                    </div>
+                    <div class="direct">
+                        <img class="direct-icon" src="./img/direct_black.svg" alt="direct">
+                    </div>
+                    <div class="recomend">
+                        <img class="recomend-icon" src="./img/recommend_black.svg" alt="recomend">
+                    </div>
+                    <div class="notification">
+                        <img class="notification-icon" src="./img/notification_black.svg" alt="notification">
+                    </div>
+                    <div class="account">
+                        <img class="account-icon" src="./img/Avatar.svg" alt="account">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="wrap">
+            <main>
+                <div class="story-container">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="./img/Avtar.svg" alt="story-avatar">
+                        </div>
+                        <h4 class="profile-name">nickname</h4>
+                    </div>
+                </div>
+                <div class="posts">
+                    <div class="instagram-post">
+                    <div class="post-header">
+                        <div class="post-right">
+                            <div class="profile-picture">
+                                <img src="./img/Avatar.svg" alt="Profile Picture">
+                            </div>
+                            <div>
+                                <h4 class="username">nickname</h4>
+                                <p class="location">City, Country</p>
+                            </div>
+                        </div>
+                        <div class="post-left">
+                            <img src="./img/spred.svg" alt="spred">
+                        </div>
+                    </div>
+                    <div class="post-image">
+                        <img src="./img/Photo.png" alt="Post Image">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-info">
+                            <div class="post-info-box">
+                                <div class="post-like">
+                                    <img src="./img/notification_black.svg" alt="like">
+                                </div>
+                                <div class="post-comment">
+                                    <img src="./img/comment.svg" alt="comment">
+                                </div>
+                                <div class="post-share">
+                                    <img src="./img/share.svg" alt="share">
+                                </div>
+                            </div> 
+                            <div class="post-favorite">
+                                <img src="./img/favorite.svg" alt="favorite">
+                            </div> 
+                        </div>
+                        <p class="likes">8,888 likes</p>
+                        <p class="description">
+                            <span class="username">nickname</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis...
+                        </p>
+                        <p class="view-comments">View all 33 comments</p>
+                        <div class="comments">
+                            <p class="comment"><span class="username">nickname</span> Lorem ipsum dolor sit amet</p>
+                            <p class="comment"><span class="username">nickname</span> Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <p class="timestamp">1 HOUR AGO</p>
+                    </div>
+                    <div class="post-footer">
+                        <img src="./img/Avatar.svg" alt="Profile Picture">
+                        <input type="text" placeholder="Add a comment...">
+                        <button>Post</button>
+                    </div>
+                </div>
+                </div>
+                
+            
+            </main>
+            <aside>
+                <div class="profile-container">
+                    <div class="user">
+                        <div class="user-left">
+                            <div class="user-avatar">
+                            <a href="#">
+                                <img src="./img/Avatar.svg" alt="avatar" width="64" height="64">
+                            </a>
+                            </div>
+                            <div class="user-info">
+
+                                <div class="user-nick">
+                                    <h4>nickname</h4>
+                                </div>
+                                <div class="user-name">
+                                    <p>name surname</p>
+                                </div>
+                                
+                        </div>
+                        </div>
+                        
+                        <div class="switch">
+                            <button class="switch">Switch</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="suggestions-container">
+                    <div class="suggestions-head">
+                        <h5 class="suggestions">Suggestions For You</h5>
+                        <h4>See all</h4>
+                    </div>
+                    <div class="user">
+                        <div class="user-left">
+                            <div class="user-avatar-suggest">
+                                <img src="./img/Avatar.svg" alt="avatar">
+                            </div>
+                            <div class="user-info">
+                                <div class="user-nick">
+                                    <h4>nickname</h4>
+                                </div>
+                                <div class="suggestion">
+                                    <p>Suggestions For You</p>
+                                </div>  
+                        </div>
+                        </div>
+                        
+                        <div class="follow">
+                            <button class="follow">Follow</button>
+                        </div>
+                </div>
+               
+                    
+                
+            </div>
+        </aside>
+             <div class="modal disable" id="storyModal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="modal-header">
+                            <img src="./img/Avatar.svg" alt="Profile Picture" class="profile-img">
+                            <h4 class="profile-name">nickname</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="" alt="Story Image" class="story-img" id="storyImage">
+                        </div>
+                        <div class="modal-footer">
+                            <input type="text" placeholder="Send message..." class="comment-input">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="comment-modal-overlay " id="commentModalOverlay">
+                    <div class="comment-modal" id="commentModal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4>Add a Comment</h4>
+                                <button class="close">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="comment-input">
+                                    <input type="text" placeholder="Write your comment...">
+                                </div>
+                                <div class="comment-actions">
+                                    <button class="submit-comment">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+    
+    
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
