@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instagram by Winnie</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
     
@@ -23,19 +24,19 @@
                 </div>
                 <div class="right">
                     <div class="home">
-                        <img class="home-icon" src="./img/home_black.svg" alt="home">
+                        <a href="#"><img class="home-icon" src="./img/home_black.svg" alt="home"></a>
                     </div>
                     <div class="direct">
-                        <img class="direct-icon" src="./img/direct_black.svg" alt="direct">
+                        <a href="#"><img class="direct-icon" src="./img/direct_black.svg" alt="direct"></a>
                     </div>
                     <div class="recomend">
-                        <img class="recomend-icon" src="./img/recommend_black.svg" alt="recomend">
+                        <a href="#"><img class="recomend-icon" src="./img/recommend_black.svg" alt="recomend"></a> 
                     </div>
                     <div class="notification">
-                        <img class="notification-icon" src="./img/notification_black.svg" alt="notification">
+                        <a href="#"><img class="notification-icon" src="./img/notification_black.svg" alt="notification"></a> 
                     </div>
                     <div class="account">
-                        <img class="account-icon" src="./img/Avatar.svg" alt="account">
+                        <a href="./profile.html"><img class="account-icon" src="./img/Avatar.svg" alt="account"></a>
                     </div>
                 </div>
             </div>
@@ -75,17 +76,17 @@
                         <div class="post-info">
                             <div class="post-info-box">
                                 <div class="post-like">
-                                    <img src="./img/notification_black.svg" alt="like">
+                                    <button class="like-btn"><img src="./img/notification_black.svg" alt="like"></button>
                                 </div>
                                 <div class="post-comment">
-                                    <img src="./img/comment.svg" alt="comment">
+                                    <button class="comment-btn"><img src="./img/comment.svg" alt="comment"></button>
                                 </div>
                                 <div class="post-share">
-                                    <img src="./img/share.svg" alt="share">
+                                    <button class="share-btn"><img src="./img/share.svg" alt="share"></button>
                                 </div>
                             </div> 
                             <div class="post-favorite">
-                                <img src="./img/favorite.svg" alt="favorite">
+                                <button class="favorite-btn"></button><img src="./img/favorite.svg" alt="favorite">
                             </div> 
                         </div>
                         <p class="likes">8,888 likes</p>
@@ -180,30 +181,80 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="comment-modal-overlay " id="commentModalOverlay">
-                    <div class="comment-modal" id="commentModal">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4>Add a Comment</h4>
-                                <button class="close">&times;</button>
+                <div class="modal-comment disable">
+                    <button id="closeModal" class="close-btn">×</button>
+                    <div class="containerComment">
+                        <div class="comment-left">
+                            <img id="mainPhoto" src="#" alt="mainphoto">
+                        </div>
+                        <div class="comment-right">
+                            <div class="comment-right-profile">
+                                <div class="comment-autor-profile">
+                                    <img src="#" alt="avatar">
+                                    <span>nickname</span>
+                                </div>
+                                <img src="./img/spred.svg" alt="spred">
                             </div>
-                            <div class="modal-body">
-                                <div class="comment-input">
-                                    <input type="text" placeholder="Write your comment...">
+                            <div class="post-comment-scrollbar">
+                                <div class="comment">
+                                    <div class="comment-user-info">
+                                        <img src="#" alt="ava">
+                                        <span>nickname</span>
+                                    </div>
+                                    
+                                        <div class="commentary">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptas reprehenderit eveniet earum vitae ullam consequatur dolorum minima, id alias beatae voluptate ratione error, magni sapiente quaerat quo, praesentium harum?</p>
+                                        </div>
                                 </div>
-                                <div class="comment-actions">
-                                    <button class="submit-comment">Post</button>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-info">
+                                    <div class="post-info-box">
+                                        <div class="post-like">
+                                            <img src="./img/notification_black.svg" alt="like">
+                                        </div>
+                                        <div class="post-share">
+                                            <img src="./img/share.svg" alt="share">
+                                        </div>
+                                    </div> 
+                                    <div class="post-favorite">
+                                        <img src="./img/favorite.svg" alt="favorite">
+                                    </div> 
                                 </div>
+                                <p class="likes">8,888 likes</p>
+                                
+                                <div class="post-footer">
+                                    <img src="./img/Avatar.svg" alt="Profile Picture">
+                                    <input type="text" placeholder="Add a comment...">
+                                    <button>Post</button>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
-                </div> -->
+                
+        </div>
+    <div class="for-mobile">
+        <div class="home-mobile">
+            <a href="#"><img class="home-icon" src="./img/home_black.svg" alt="home"></a>
+        </div>
+        <div class="search-for-mobile">
+            <a href="#"><img src="./img/searchformobile.svg" alt="search"></a>
+        </div>
+        <div class="add">
+            <a href="#"><img src="./img/add.svg" alt="add"></a>
+        </div>
+        <div class="notification-for-mobile">
+            <a href="#"><img class="notification-icon" src="./img/notification_black.svg" alt="notification"></a> 
+        </div>
+        <div class="account-for-mobile">
+            <a href="./profile.html"><img class="account-icon" src="./img/Avatar.svg" alt="account"></a>
         </div>
     </div>
-    
-    
+    </div>
 
     <script type="module" src="./js/main.js"></script>
 </body>
 </html>
+
+<img src="./img/home_white.svg" alt="">

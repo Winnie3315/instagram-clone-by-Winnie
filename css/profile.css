@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    border-bottom: 1px solid #DBDBDB;
+}
+.search input {
+    padding: 8px 70px 8px 70px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .right{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        padding: 12px 0;
+    }
+}
+
+.profile-edition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-box{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    padding: 40px 0 47px 0;
+}
+.profile-box .avatar {
+    width: 150px;
+}
+.profile-text-head span{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+
+
+}
+.profile-text-head{
+    display: flex;
+    align-items: center;
+}
+
+.profile-text-head .edit-profile{
+    padding: 8px 14px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    background-color: white;
+    margin: 0 8px 0 24px;
+}
+.profile-text-head .shesterenka{
+    border: 0;
+    background-color: white;
+}
+.profile-text-center{
+    display: flex;
+    gap: 30px;
+}
+.profile-text-center h3{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.posts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    background: #DBDBDB;
+    width: 900px;
+    height: 1px;
+}
+.post-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 16px 0;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    h4{
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+
+    }
+}
+.post-main{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 25px;
+    justify-content: center;
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}

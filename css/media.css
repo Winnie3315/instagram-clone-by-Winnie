@@ -1,0 +1,140 @@
+@media (max-width:1200px) {
+    .container{
+        width: 900px;
+        main{
+            width: 60%;
+        }
+        .user-avatar img{
+            width: 50px;
+            height: 50px;
+        }
+        aside{
+            width: 35%;
+        }
+    }
+}
+@media (max-width:992px) {
+    .container{
+        width: 700px;
+        
+    }
+}
+@media (max-width: 768px) {
+    
+    .container{
+        width: 500px;
+        padding: 0 20px;
+    }
+    aside{
+        display: none;
+    }
+    .wrap{
+        display: block;
+        main{
+        width: 100%;
+        }
+    }
+    .for-mobile{
+        display: flex;
+    }
+    .modal, .modal-comment {
+        
+        max-width: none;
+        padding: 10px;
+    }
+    
+    .modal-content, .containerComment {
+        padding: 10px;
+    }
+    
+    .modal-footer, .post-footer {
+        /* flex-direction: column; */
+        align-items: flex-start;
+        align-items: center;
+    }
+    
+    .comment-input, .post-footer input {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .post-footer button{
+        display: none;
+    }
+    .post-footer img {
+        width: 30px;
+        height: 30px;
+    }
+    .instagram-post .post-footer{
+       display: none;
+    }
+    .search{
+        display: none;
+    }
+    .header{
+        .right{
+        gap: 0;
+        display: block;
+        }
+    }
+    .notification{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .account{
+        display: none;
+    }
+    .recomend{
+        display: none;
+    }
+    .comment-left {
+        display: none;
+    }
+    .modal-comment{
+        width: 460px;
+    }
+    .story-container{
+        border: 0;
+    }
+    .story-img{
+        max-height: 1200px;
+        height: 570px;
+    }
+    .modal-body{
+        height: 590px;
+    }
+}
+
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .home-mobile img{
+        width: 32px;
+        height: 32px;
+        z-index: 100011;
+    }
+    .search-for-mobile img{
+        width: 32px;
+        height: 32px;
+        z-index: 100011;
+    }
+    .add img{
+        width:32px;
+        height: 32px;
+        z-index: 100011;
+    }
+    .notification-for-mobile img{
+        width:32px;
+        height:32px;
+        z-index: 100011;
+    }
+    .account-for-mobile img{
+        width:32px;
+        height:32px;
+        z-index: 100011;
+    }
+}
+    
