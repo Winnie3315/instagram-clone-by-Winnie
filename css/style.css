@@ -771,7 +771,7 @@ header{
     --color-body: #2A2A2A;
     --color-primary: #3E698E;
     --color-secondary: #F5EDBD;
-    --color-switcher: rgb(255, 255, 255);
+    --color-switcher: rgb(24, 24, 24);
 }
 
 .dark-theme {
@@ -798,4 +798,7 @@ header, .container, .wrap, main, aside, .modal, .for-mobile, .instagram-post, .m
 
 .button:hover {
     color: var(--color-secondary);
+}
+svg path{
+    fill: var(--color-switcher);
 }
