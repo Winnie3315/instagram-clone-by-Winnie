@@ -48,21 +48,28 @@ header{
 .wrap{
     display: flex;
     aside{
-        width: 25%;
-        padding-left: 15px;
+        width: 40%;
+        padding-left: 45px;
     }
     main{
-        width: 65%;
+        width: 60%;
         
     }
 }
 .user{
-    margin-top: 32px;
+    /* margin-top: 32px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+     padding-top: 16px;
+    /* padding-bottom: 16px;  */
+}
+.user-main{
+    margin-top: 45px;
     padding-top: 16px;
-    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .follow button{
     background: none;
@@ -767,7 +774,7 @@ header{
 }
 
 :root {
-    --color-bg: #F8F7F1;
+    --color-bg: #ffffff;
     --color-body: #2A2A2A;
     --color-primary: #3E698E;
     --color-secondary: #F5EDBD;
@@ -776,7 +783,7 @@ header{
 
 .dark-theme {
     --color-bg: #1F1F1F;
-    --color-body: #F8F4F0;
+    --color-body: #ffffff;
     --color-primary: #3E698E;
     --color-secondary: #F5EDBD;
     --color-switcher: rgb(255, 255, 255);
@@ -802,3 +809,6 @@ header, .container, .wrap, main, aside, .modal, .for-mobile, .instagram-post, .m
 svg path{
     fill: var(--color-switcher);
 }
+/* .profile-container:first-child{
+    margin: 0;
+} */
